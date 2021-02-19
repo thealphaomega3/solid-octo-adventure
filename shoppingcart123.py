@@ -6,7 +6,7 @@ while True:
         list.append(command)
 
     elif command == "rearrange":
-        if list.count == 0:
+        if not list:
             print("Please add entries to the list before rearranging.")
 
         else:
